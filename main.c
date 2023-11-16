@@ -704,46 +704,29 @@ unsigned int StartTheGame(void)
 		
 		count = count + 1;
 	}
+	GPIOA->ODR &= clearbitA0;
+	GPIOA->ODR &= clearbitA1;
+	GPIOA->ODR &= clearbitA4;
+	GPIOB->ODR &= clearbitB0;
+	
 	//After the player press the start button
 	//the 4 LEDs will turn on and off togather 3 times
 	//telling the player: "Ready...Set...Go..."
-	GPIOA->ODR &= clearbitA0;
-	GPIOA->ODR &= clearbitA1;
-	GPIOA->ODR &= clearbitA4;
-	GPIOB->ODR &= clearbitB0;
-	
-	GPIOA->ODR |= (1 << 0);
-	GPIOA->ODR |= (1 << 1);
-	GPIOA->ODR |= (1 << 4);
-	GPIOB->ODR |= (1 << 0);
-	delay(1500);
-	GPIOA->ODR &= clearbitA0;
-	GPIOA->ODR &= clearbitA1;
-	GPIOA->ODR &= clearbitA4;
-	GPIOB->ODR &= clearbitB0;
-	delay(1500);
-	
-	GPIOA->ODR |= (1 << 0);
-	GPIOA->ODR |= (1 << 1);
-	GPIOA->ODR |= (1 << 4);
-	GPIOB->ODR |= (1 << 0);
-	delay(1500);
-	GPIOA->ODR &= clearbitA0;
-	GPIOA->ODR &= clearbitA1;
-	GPIOA->ODR &= clearbitA4;
-	GPIOB->ODR &= clearbitB0;
-	delay(1500);
-	
-	GPIOA->ODR |= (1 << 0);
-	GPIOA->ODR |= (1 << 1);
-	GPIOA->ODR |= (1 << 4);
-	GPIOB->ODR |= (1 << 0);
-	delay(1500);
-	GPIOA->ODR &= clearbitA0;
-	GPIOA->ODR &= clearbitA1;
-	GPIOA->ODR &= clearbitA4;
-	GPIOB->ODR &= clearbitB0;
-	delay(1500);
+	unsigned int i = 0;
+	while (i < 3)
+	{
+		GPIOA->ODR |= (1 << 0);
+		GPIOA->ODR |= (1 << 1);
+		GPIOA->ODR |= (1 << 4);
+		GPIOB->ODR |= (1 << 0);
+		delay(1500);
+		GPIOA->ODR &= clearbitA0;
+		GPIOA->ODR &= clearbitA1;
+		GPIOA->ODR &= clearbitA4;
+		GPIOB->ODR &= clearbitB0;
+		delay(1500);
+		++i;
+	}
 	
 	return count;
 }
