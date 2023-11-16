@@ -10,7 +10,7 @@ Other tools were used for this project:
 - An extra red LED (LED4), this will blink for 3 seconds if a fail occurred, to tell the player that a fail occurred
 
 ### Connection details:
-The Bussed Resistor and the Isolated Resistor are getting 3.3V from the STM32. Here is a table with all other connection:
+Here is a table of the connection:
 
 |      Equipment      |   To Breadboard   |   To STM32   |
 |:-------------------:|:-----------------:|:------------:|
