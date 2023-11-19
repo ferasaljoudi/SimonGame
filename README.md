@@ -49,7 +49,7 @@ Description of the game:
 - If the player completes 10 rounds successfully, then the 4 LEDs will be blinking on and off together
 
 **Here is a link to a YouTube video demonstrating the game:**
-- _[Click Here](https://www.youtube.com/watch?v=4QuzgClFiL4&t=0s "Watch a demonstration of the Simon game")_
+- _[Click Here](https://www.youtube.com/watch?v=UqE-Zc_CKJw "Watch a demonstration of the Simon game")_
 
 
 
