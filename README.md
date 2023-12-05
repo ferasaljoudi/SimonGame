@@ -51,7 +51,3 @@ Description of the game:
 **Here is a link to a YouTube video demonstrating the game:**
 - _[Click Here](https://www.youtube.com/watch?v=UqE-Zc_CKJw "Watch a demonstration of the Simon game")_
 
-
-
-Have fun and see how far you reach😍
-

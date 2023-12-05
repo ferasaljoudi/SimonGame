@@ -37,3 +37,13 @@ typedef struct
 #define GPIOB ((GPIO_TypeDef *) 0x40010C00)
 #define GPIOC ((GPIO_TypeDef *) 0x40011000)
 #endif
+
+void GPIO_ClockInitAndConfiguring(void);
+unsigned int StartTheGame(void);
+int genRand(unsigned int);
+void turnRands(int *array, int);
+unsigned int checkSelection(int *array, int);
+void fail(void);
+void passed(void);
+void result(int);
+void delay(unsigned int);
