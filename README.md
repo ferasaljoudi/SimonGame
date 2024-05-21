@@ -65,14 +65,25 @@ This project involves creating a Simon game that challenges the player to replic
 </div>
 <br>
 
-- When the code runs, the 4 LEDs will keep running as a classic Cylon Eye Scanner
-- When the player pushes the blue button in the STM32, the classic Cylon Eye Scanner stops and the game starts by generating the first random light (the first round starts)
-- The player has to mimic the light by pressing the appropriate button
-- The player has a limited time to press the button
-- If the player succeeds, then the game moves to round two and adds an LED to the sequence. This will continue for 10 rounds
-- If the player fails to mimic the pattern in the time allotted, pressed the wrong button, or did not press the buttons in the correct sequence the failure sequence will occur
-- In the failure sequence, the separated red LED will be blinking quickly for 3 seconds. Then the player will see the level he reached represented in binary by the 4 LEDs 
-- If the player completes 10 rounds successfully, then the 4 LEDs will be blinking on and off together
+1. <b>Initialization:</b>
+    - When the code runs, the 4 LEDs perform a classic Cylon Eye Scanner sequence.
+
+2. <b>Starting the Game:</b>
+    - The game begins when the player presses the blue button on the STM32.
+    - The Cylon Eye Scanner stops, and the first round starts by generating a random light sequence.
+
+3. <b>Player Interaction:</b>
+    - The player must mimic the light sequence by pressing the corresponding buttons within a limited time.
+    - If the player successfully replicates the sequence, a new light is added to the sequence for the next round.
+    - The game continues this way for up to 10 rounds.
+
+4. <b>Failure Condition:</b>
+    - If the player fails to mimic the pattern correctly, presses the wrong button, or runs out of time, a failure sequence is triggered.
+    - The separated red LED blinks quickly for 3 seconds to indicate failure.
+    - The level reached by the player is then displayed in binary using the 4 LEDs.
+
+5. <b>Winning Condition:</b>
+    - If the player successfully completes all 10 rounds, the 4 LEDs blink on and off together in celebration.
 
 <br>
 <div style="width: 100%;">
