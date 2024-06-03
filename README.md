@@ -15,6 +15,18 @@ This project involves creating a Simon game that challenges the player to replic
 
 <br>
 <div style="width: 100%;">
+    <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/demo.svg" alt="Demo" style="width: 100%"></a>
+</div>
+<br>
+
+<div align="center">
+
+In Progress...
+
+</div>
+
+<br>
+<div style="width: 100%;">
     <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/technologiesUsed.svg" alt="Technologies Used" style="width: 100%"></a>
 </div>
 <br>
