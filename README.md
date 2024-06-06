@@ -20,9 +20,7 @@ This project involves creating a Simon game that challenges the player to replic
 <br>
 
 <div align="center">
-
-In Progress...
-
+    <a href="#"><img src="DemoGif/simonGame.gif" alt="Demo Gif"></a>
 </div>
 
 <br>
