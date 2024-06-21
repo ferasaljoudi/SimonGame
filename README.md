@@ -3,7 +3,9 @@
 </div>
 <br>
 
+<div align="center">
 A simple Simon game designed with 10 levels using C code in Keil uVision, utilizing an STM32F103 Nucleo Board.
+</div>
 
 <br>
 <div style="width: 100%;">
@@ -30,11 +32,9 @@ This project involves creating a Simon game that challenges the player to replic
 <br>
 
 <div align="center">
-
-[![C](https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=00FF00)](https://www.w3schools.com/c/)
-[![STM32](https://img.shields.io/badge/-STM_32-150458?style=for-the-badge)](https://www.st.com/en/microcontrollers-microprocessors/stm32f1-series.html)
-[![Keil uVision](https://img.shields.io/badge/-Keil_uVision-0090D0?style=for-the-badge&logoColor=white)](https://www.keil.com/)
-
+    <a href="https://www.w3schools.com/c/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Languages/Left/c.svg" alt="C"></a>
+    <a href="https://www.keil.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/ToolsAndPlatforms/Left/keil.svg" alt="Keil uVision"></a>
+    <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32f1-series.html"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Hardware/Left/stm32.svg" alt="Stm32"></a>
 </div>
 
 <br>
