@@ -4,7 +4,9 @@
 <br>
 
 <div align="center">
+
 A simple Simon game designed with 10 levels using C code in Keil uVision, utilizing an STM32F103 Nucleo Board.
+
 </div>
 
 <br>
